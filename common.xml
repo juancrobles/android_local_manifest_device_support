@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Local projects -->
+    <project path="hardware/qcom/display-legacy" name="TheWhisp/android_hardware_qcom_display-legacy" revision="jellybean-mr2" />
+    <project path="hardware/qcom/media-legacy" name="TheWhisp/android_hardware_qcom_media-legacy" revision="jellybean-mr2" />
+</manifest>
