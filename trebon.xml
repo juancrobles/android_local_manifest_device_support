@@ -2,6 +2,6 @@
 <manifest>   
     <project path="device/samsung/msm7x27a-common" name="Giugiu19/android_device_samsung_msm7x27a-common" revision="android-4.4" />
     <project path="device/samsung/trebon" name="Giugiu19/android_device_samsung_s7500" revision="speedmodrom" />
-    <project path="vendor/samsung" name="Giugiu19/proprietary_vendor_samsung_msm7x27a" revision="cm-11.0" />
+    <project path="vendor/samsung" name="Giugiu19/proprietary_vendor_samsung_msm7x27a_1" revision="cm-11.0" />
     <project path="kernel/samsung/msm7x27a" name="Giugiu19/Android_kernel_samsung_msm7x27a" revision="3.0.101" />
 </manifest>
