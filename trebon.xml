@@ -3,5 +3,5 @@
     <project path="device/samsung/msm7x27a-common" name="SpeedGroup/android_device_samsung_msm7x27a-common" revision="android-4.4" />
     <project path="device/samsung/trebon" name="Speedgroup/android_device_samsung_s7500" revision="speedmodrom" />
     <project path="vendor/samsung" name="SpeedGroup/proprietary_vendor_samsung_msm7x27a" revision="cm-12.0" />
-    <project path="kernel/samsung/msm7x27a" name="SpeedGroup/Android_kernel_samsung_msm7x27a" revision="3.4.76" />
+    <project path="kernel/samsung/msm7x27a" name="SpeedGroup/Android_kernel_samsung_msm7x27a" revision="3.0.101" />
 </manifest>
