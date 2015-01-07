@@ -8,6 +8,9 @@
 <project path="kernel/samsung/trebon" name="Android_kernel_samsung_trebon" remote ="Giugiu19" revision="cm-11.0"/>
 <project path="vendor/samsung/trebon" name="android_vendor_samsung_trebon" remote ="Giugiu19" revision="cm-11.0" />
 
+<!-- Dislay Drivers -->
+<project path="hardware/qcom/display-legacy" name="SpeedGroup/android_hardware_qcom_display-legacy" revision="jellybean-mr2" />
+
 <!-- WLAN Drivers -->
 <project path="hardware/atheros/wlan" name="android_hardware_atheros_wlan" remote ="SpeedGroup" revision="cm-11.0" />
 
