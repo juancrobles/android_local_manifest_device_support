@@ -1,2 +1,2 @@
-android_local_manifest-trebon-
+android_local_manifest-trebon
 ==============================
