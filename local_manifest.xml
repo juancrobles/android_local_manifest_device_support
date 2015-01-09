@@ -11,6 +11,9 @@
 <!-- Dislay Drivers -->
 <project path="hardware/qcom/display-legacy" name="SpeedGroup/android_hardware_qcom_display-legacy" revision="cm-11.0" />
 
+<!-- Media Drivers -->
+<project path="hardware/qcom/media-legacy" name="SpeedGroup/android_hardware_qcom_media-legacy" revision="cm-11.0" />
+
 <!-- WLAN Drivers -->
 <project path="hardware/atheros/wlan" name="android_hardware_atheros_wlan" remote ="SpeedGroup" revision="cm-11.0" />
 
