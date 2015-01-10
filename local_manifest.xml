@@ -13,7 +13,7 @@
 <project path="vendor/samsung/trebon" name="android_vendor_samsung_trebon" remote ="Giugiu19" revision="cm-11.0" />
 
 <!-- Dislay Drivers -->
-<project path="hardware/qcom/display-caf" name="SpeedGroup/android_hardware_qcom_display_caf" revision="cm-11.0" />
+<project path="hardware/qcom/display-caf" name="SpeedGroup/android_hardware_qcom_display-caf" revision="cm-11.0" />
 
 <!-- Media Drivers -->
 <project path="hardware/qcom/media-caf" name="SpeedGroup/android_hardware_qcom_media-caf" revision="cm-11.0" />
