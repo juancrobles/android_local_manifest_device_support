@@ -22,4 +22,7 @@
 <!-- WLAN Drivers -->
 <project path="hardware/atheros/wlan" name="android_hardware_atheros_wlan" remote ="SpeedGroup" revision="cm-11.0" />
 
+<!-- FM Drivers -->
+<project path="hardware/qcom/fm" name="SpeedGroup/android_hardware_qcom_fm" revision="cm-11.0" />
+
 </manifest>
