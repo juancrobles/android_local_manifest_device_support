@@ -2,9 +2,6 @@
 <manifest>
  <remote  name="Giugiu19"
            fetch="https://github.com/Giugiu19/" />
-           
- <!-- Useless Stuff -->
-<remove-project name="CyanogenMod/android_hardware_qcom_media-caf" />
 
 <!-- Device Tree, Kernel and Vendor for trebon -->
 <project path="device/samsung/msm7x27a-common" name="android_device_samsung_msm7x27a-common" remote ="Giugiu19" revision="cm-11.0" />
@@ -16,10 +13,10 @@
 <project path="hardware/qcom/display-legacy" name="SpeedGroup/android_hardware_qcom_display-legacy" revision="cm-11.0" />
 
 <!-- Media Drivers -->
-<project path="hardware/qcom/media-caf" name="SpeedGroup/android_hardware_qcom_media-caf" revision="cm-11.0" />
+<project path="hardware/qcom/media-legacy" name="SpeedGroup/android_hardware_qcom_media-legacy" revision="cm-11.0" />
 
 <!-- WLAN Drivers -->
-<project path="hardware/atheros/wlan" name="android_hardware_atheros_wlan" remote ="SpeedGroup" revision="cm-11.0" />
+<project path="hardware/atheros/wlan" name="android_hardware_atheros_wlan" remote ="Speedgroup" revision="cm-11.0" />
 
 <!-- FM Drivers -->
 <project path="hardware/qcom/fm" name="SpeedGroup/android_hardware_qcom_fm" revision="cm-11.0" />
