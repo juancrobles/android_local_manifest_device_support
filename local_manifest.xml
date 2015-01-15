@@ -4,7 +4,6 @@
            fetch="https://github.com/Giugiu19/" />
            
  <!-- Useless Stuff -->
-<remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
 <remove-project name="CyanogenMod/android_hardware_qcom_media-caf" />
 
 <!-- Device Tree, Kernel and Vendor for trebon -->
