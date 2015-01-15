@@ -2,6 +2,10 @@
 <manifest>
  <remote  name="Giugiu19"
            fetch="https://github.com/Giugiu19/" />
+ 
+<!-- CM replacements -->
+<remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
+<project path="hardware/libhardware_legacy" name="SpeedGroup/android_hardware_libhardware_legacy" revision="cm-11.0" />
 
 <!-- Device Tree, Kernel and Vendor for trebon -->
 <project path="device/samsung/msm7x27a-common" name="android_device_samsung_msm7x27a-common" remote ="Giugiu19" revision="cm-11.0" />
