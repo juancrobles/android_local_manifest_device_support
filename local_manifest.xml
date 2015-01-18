@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <remote  name="Giugiu19"
-           fetch="https://github.com/Giugiu19/" />
  
-<!-- CM replacements -->
+<!-- SM replacements -->
 <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
 <project path="hardware/libhardware_legacy" name="SpeedGroup/android_hardware_libhardware_legacy" revision="cm-11.0" />
 
@@ -11,7 +9,7 @@
 <project path="device/samsung/msm7x27a-common" name="android_device_samsung_msm7x27a-common" remote ="Giugiu19" revision="cm-11.0" />
 <project path="device/samsung/trebon" name="android_device_samsung_trebon" remote ="Giugiu19" revision="cm-11.0" />
 <project path="kernel/samsung/msm7x27a" name="Android_kernel_samsung_trebon" remote ="Giugiu19" revision="cm-11.0"/>
-<project path="vendor/samsung" name="proprietary_vendor_samsung_trebon" remote ="Giugiu19" revision="cm-11.0" />
+<project path="vendor/samsung" name="proprietary_vendor_samsung_msm7x27a" remote ="Giugiu19" revision="cm-11.0" />
 
 <!-- Dislay Drivers -->
 <project path="hardware/qcom/display-legacy" name="SpeedGroup/android_hardware_qcom_display-legacy" revision="cm-11.0" />
