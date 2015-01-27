@@ -2,8 +2,7 @@
 <manifest>
 
 <!-- Device Tree, Kernel and Vendor for trebon -->
-<project path="device/samsung/msm7x27a-common" name="android_device_samsung_msm7x27a-common" remote ="Giugiu19" revision="cm-11.0" />
-<project path="device/samsung/trebon" name="android_device_samsung_trebon" remote ="Giugiu19" revision="cm-11.0" />
+<project path="device/samsung/trebon" name="android_device_samsung_trebon" remote ="Giugiu19" revision="Aosp_L" />
 <project path="kernel/samsung/msm7x27a" name="Android_kernel_samsung_trebon" remote ="Giugiu19" revision="cm-11.0"/>
 <project path="vendor/samsung" name="proprietary_vendor_samsung_msm7x27a" remote ="Giugiu19" revision="cm-11.0" />
 
@@ -16,7 +15,10 @@
 <!-- WLAN Drivers -->
 <project path="hardware/atheros/wlan" name="android_hardware_atheros_wlan" remote ="SpeedGroup" revision="cm-11.0" />
 
+<!-- Classic webkit -->
+<project path="external/webkit" name="android_external_webkit" remote ="Giugiu19" revision="cm-11.0" />
+
 <!-- FM Drivers -->
-<project path="hardware/qcom/fm" name="SpeedGroup/android_hardware_qcom_fm" revision="cm-11.0" />
+<!--project path="hardware/qcom/fm" name="SpeedGroup/android_hardware_qcom_fm" revision="cm-11.0" />
 
 </manifest>
