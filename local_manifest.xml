@@ -2,9 +2,9 @@
 <manifest>
 
 <!-- Device Tree, Kernel and Vendor for trebon -->
-<project path="device/samsung/trebon" name="android_device_samsung_trebon_caf" remote ="Giugiu19" revision="Aosp_L" />
-<project path="kernel/samsung/msm7x27a" name="Android_kernel_samsung_trebon_caf" remote ="Giugiu19" revision="caf"/>
-<project path="vendor/samsung" name="proprietary_vendor_samsung_msm7x27a" remote ="Giugiu19" revision="cm-11.0" />
+<project path="device/samsung/trebon" name="platform_device_samsung_trebon" remote ="Giugiu19" revision="Aosp_L" />
+<project path="kernel/samsung/trebon" name="platform_kernel_samsung_trebon" remote ="Giugiu19" revision="caf"/>
+<project path="vendor/samsung" name="proprietary_vendor_samsung_trebon" remote ="Giugiu19" revision="Aosp_L" />
 
 <!-- Dislay Drivers -->
 <project path="hardware/qcom/display-legacy" name="SpeedGroup/android_hardware_qcom_display-legacy" revision="cm-11.0" />
