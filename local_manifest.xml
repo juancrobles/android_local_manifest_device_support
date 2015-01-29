@@ -13,7 +13,7 @@
 <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy-1" remote ="SpeedGroup" revision="lollipop" />
 
 <!-- WLAN Drivers -->
-<project path="hardware/atheros/wlan" name="android_hardware_atheros_wlan" remote ="SpeedGroup" revision="cm-12.0" />
+<project path="hardware/atheros/wlan" name="android_hardware_atheros" remote ="SpeedGroup" revision="lollipop" />
 
 <!-- Classic webkit -->
 <project path="external/webkit" name="android_external_webkit" remote ="Giugiu19" revision="cm-11.0" />
