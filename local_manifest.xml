@@ -7,7 +7,7 @@
 <project path="vendor/samsung" name="proprietary_vendor_samsung_trebon" remote ="Giugiu19" revision="Aosp_L" />
 
 <!-- Dislay Drivers -->
-<project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy-1"remote ="SpeedGroup" revision="lollipop" />
+<project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy-1" remote ="SpeedGroup" revision="lollipop" />
 
 <!-- Media Drivers -->
 <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy-1" remote ="SpeedGroup" revision="lollipop" />
@@ -19,6 +19,6 @@
 <project path="external/webkit" name="android_external_webkit" remote ="Giugiu19" revision="cm-11.0" />
 
 <!-- FM Drivers -->
-<!--project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote ="SpeedGroup" revision="cm-12.0" />
+<!--<project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote ="SpeedGroup" revision="cm-12.0" /> -->
 
 </manifest>
