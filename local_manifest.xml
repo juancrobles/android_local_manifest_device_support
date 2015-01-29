@@ -7,10 +7,10 @@
 <project path="vendor/samsung" name="proprietary_vendor_samsung_trebon" remote ="Giugiu19" revision="Aosp_L" />
 
 <!-- Dislay Drivers -->
-<project path="hardware/qcom/display-legacy" name="SpeedGroup/android_hardware_qcom_display-legacy" revision="cm-11.0" />
+<project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy-1"remote ="SpeedGroup" revision="lollipop" />
 
 <!-- Media Drivers -->
-<project path="hardware/qcom/media-legacy" name="SpeedGroup/android_hardware_qcom_media-legacy" revision="cm-11.0" />
+<project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy-1" remote ="SpeedGroup" revision="lollipop" />
 
 <!-- WLAN Drivers -->
 <project path="hardware/atheros/wlan" name="android_hardware_atheros_wlan" remote ="SpeedGroup" revision="cm-11.0" />
