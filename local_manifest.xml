@@ -15,9 +15,6 @@
 <!-- WLAN Drivers -->
 <project path="hardware/atheros/wlan" name="android_hardware_atheros" remote ="SpeedGroup" revision="lollipop" />
 
-<!-- Classic webkit -->
-<project path="external/webkit" name="android_external_webkit" remote ="Giugiu19" revision="cm-11.0" />
-
 <!-- FM Drivers -->
 <!--<project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote ="SpeedGroup" revision="cm-12.0" /> -->
 
