@@ -4,7 +4,7 @@
 <remove-project name="platform/hardware/qcom/display" groups="qcom,qcom_display" />
 
 <!-- Device Tree, Kernel and Vendor for trebon -->
-<project path="device/samsung/trebon" name="platform_device_samsung_trebon" remote ="Giugiu19" revision="Aosp_L" />
+<project path="device/samsung/trebon" name="platform_device_samsung_trebon" remote ="Giugiu19" revision="clean-code" />
 <project path="kernel/samsung/trebon" name="platform_kernel_samsung_trebon" remote ="Giugiu19" revision="caf"/>
 <project path="vendor/samsung" name="proprietary_vendor_samsung_trebon" remote ="Giugiu19" revision="Aosp_L" />
 
