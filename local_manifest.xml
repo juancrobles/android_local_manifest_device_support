@@ -2,6 +2,7 @@
 <manifest>
 <!-- remove Aosp repos -->
 <remove-project name="platform/hardware/qcom/display" groups="qcom,qcom_display" />
+<remove-project name="platform/hardware/qcom/media" groups="qcom" />
 
 <!-- Device Tree, Kernel and Vendor for trebon -->
 <project path="device/samsung/trebon" name="platform_device_samsung_trebon" remote ="Giugiu19" revision="clean-code" />
@@ -12,7 +13,8 @@
 <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display" remote ="SpeedGroup" revision="Aosp" />
 
 <!-- Media Drivers -->
-<project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy-1" remote ="SpeedGroup" revision="lollipop" />
+<project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote ="SpeedGroup" revision="lollipop" />
+<project path="hardware/qcom/media-caf" name="android_hardware_qcom_media" remote ="SpeedGroup" revision="Aosp" />
 
 <!-- WLAN Drivers -->
 <project path="hardware/atheros/wlan" name="android_hardware_atheros" remote ="SpeedGroup" revision="lollipop" />
