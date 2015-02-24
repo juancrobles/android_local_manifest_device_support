@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- remove Aosp repos -->
+
+<!--
 <remove-project name="platform/hardware/qcom/display" groups="qcom,qcom_display" />
+-->
+<!-- remove Aosp repos -->
 <remove-project name="platform/hardware/qcom/media" groups="qcom" />
 
 <!-- Device Tree, Kernel and Vendor for trebon -->
@@ -9,12 +12,9 @@
 <project path="kernel/samsung/trebon" name="platform_kernel_samsung_trebon" remote ="Giugiu19" revision="caf"/>
 <project path="vendor/samsung" name="proprietary_vendor_samsung_trebon" remote ="Giugiu19" revision="Aosp_L" />
 
-<!-- Dislay Drivers -->
-<project path="hardware/qcom/display-caf" name="android_hardware_qcom_display" remote ="SpeedGroup" revision="Aosp" />
-
-<!-- Media Drivers -->
-<project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote ="SpeedGroup" revision="lollipop" />
-<project path="hardware/qcom/media-caf" name="android_hardware_qcom_media" remote ="SpeedGroup" revision="Aosp" />
+<project path="hardware/qcom/display/msm7x27a" name="android_hardware_qcom_display" remote ="SpeedGroup" revision="Aosp" groups="qcom,qcom_display" />
+<project path="hardware/qcom/media" name="android_hardware_qcom_media" remote ="SpeedGroup" revision="Aosp" groups="qcom" />
+<project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote ="SpeedGroup" revision="lollipop" groups="qcom" />
 
 <!-- WLAN Drivers -->
 <project path="hardware/atheros/wlan" name="android_hardware_atheros" remote ="SpeedGroup" revision="lollipop" />
