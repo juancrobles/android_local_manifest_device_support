@@ -6,13 +6,12 @@
 <remove-project name="platform/hardware/qcom/media" groups="qcom" />
 
 <!-- Device Tree, Kernel and Vendor for trebon -->
-<project path="device/samsung/trebon" name="platform_device_samsung_trebon" remote ="Giugiu19" revision="clean-code" />
+<project path="device/samsung/trebon" name="platform_device_samsung_trebon" remote ="Giugiu19" revision="clean-code-camera" />
 <project path="kernel/samsung/trebon" name="platform_kernel_samsung_trebon" remote ="Giugiu19" revision="caf"/>
-<project path="vendor/samsung" name="proprietary_vendor_samsung_trebon" remote ="Giugiu19" revision="Aosp_L" />
+<project path="vendor/samsung" name="proprietary_vendor_samsung_trebon" remote ="Giugiu19" revision="clean-code-camera" />
 
 <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote ="SpeedGroup" revision="Aosp_L" groups="qcom,qcom_display" />
 <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote ="SpeedGroup" revision="Aosp" groups="qcom" />
-<project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote ="SpeedGroup" revision="lollipop" groups="qcom" />
 
 <!-- WLAN Drivers -->
 <project path="hardware/atheros/wlan" name="android_hardware_atheros" remote ="SpeedGroup" revision="lollipop" />
