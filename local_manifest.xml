@@ -7,7 +7,7 @@
 
 <!-- Device Tree, Kernel and Vendor for trebon -->
 <project path="device/samsung/trebon" name="platform_device_samsung_trebon" remote ="Giugiu19" revision="clean-code-camera" />
-<project path="kernel/samsung/trebon" name="platform_kernel_samsung_trebon" remote ="Giugiu19" revision="caf"/>
+<project path="kernel/samsung/trebon" name="platform_kernel_samsung_trebon" remote ="Giugiu19" revision="clean-code-camera"/>
 <project path="vendor/samsung" name="proprietary_vendor_samsung_trebon" remote ="Giugiu19" revision="clean-code-camera" />
 
 <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote ="SpeedGroup" revision="Aosp_L" groups="qcom,qcom_display" />
