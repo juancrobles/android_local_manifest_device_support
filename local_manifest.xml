@@ -13,8 +13,9 @@
 <remove-project name="AndroidArmv6/android_frameworks_av" />
 
 <!-- Device Tree, Kernel and Vendor for trebon -->
-<project path="device/samsung/trebon" name="android_device_samsung_trebon" remote ="Giugiu19" revision="kk" />
+<project path="device/samsung/trebon" name="android_device_samsung_trebon_kk" remote ="Giugiu19" revision="kk" />
 <project path="kernel/samsung/trebon" name="android_kernel_samsung_test_x" remote ="Giugiu19" revision="kernel_update_jb"/>
+<!--project path="kernel/samsung/trebon" name="Android_kernel_samsung_trebon" remote ="Giugiu19" revision="cm-11.0"/-->
 <project path="vendor/samsung/trebon" name="android_vendor_samsung_trebon" remote ="Giugiu19" revision="kk" />
 
 <!-- WLAN Drivers -->
