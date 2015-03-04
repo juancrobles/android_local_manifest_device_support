@@ -5,7 +5,7 @@
     <remove-project name="CyanogenMod/android_frameworks_av" />
 
     <!-- Local projects -->
-    <project path="frameworks/native" name="legaCyMod/android_frameworks_native" revision="cm-11.0" />
+    <project path="frameworks/native" name="Giugiu19/android_frameworks_native" revision="cm-11.0" />
     <project path="frameworks/av" name="legaCyMod/android_frameworks_av" revision="cm-11.0" />
     <project path="hardware/atheros/wlan" name="legaCyMod/android_hardware_atheros_wlan" revision="cm-11.0" />
     <project path="hardware/qcom/media-legacy" name="legaCyMod/android_hardware_qcom_media-legacy" revision="cm-11.0" />
