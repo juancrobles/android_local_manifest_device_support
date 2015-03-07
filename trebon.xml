@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>   
     <project path="device/samsung/trebon" name="Giugiu19/android_device_samsung_trebon_kk" revision="kk" />
-    <project path="vendor/samsung" name="Giugiu19/proprietary_vendor_samsung_trebon" revision="cm-11.0" />
+    <project path="vendor/samsung" name="Giugiu19/proprietary_vendor_samsung_trebon" revision="kk" />
     <project path="kernel/samsung/trebon" name="Giugiu19/android_kernel_samsung_trebon" revision="cm-11.0" />
 </manifest>
